@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>how to use localstorage</title>
+	
+	
+	<link rel="stylesheet" href="src/css/style.css" type="text/css">
+	<style>
+		*, ::before, ::after {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<h1>Local Storage - Javascript - frank</h1>
+	
+	<form action="">
+		<fieldset>
+			<legend>Insert Data</legend>
+			
+			<input type="text" placeholder="Enter key..." name="key" autocomplete="off">
+			<input type="text" placeholder="Enter value..." name="value" autocomplete="off">
+			<input type="submit" value="insert">
+			
+		</fieldset>
+	</form>
+	
+	<fieldset>
+		<legend>Local Storage</legend>
+		
+		<div class="output">
+			<p><span class="key">age</span>: <span class="value">60</span></p>
+		</div>
+		
+	</fieldset>
+	
+	<script type="text/html" class="template">
+		<p><span class="key">{key}</span>: <span class="value">{value}</span></p>
+	</script>
+	
+	<script src="src/js/app.js"></script>
+	<!--<script src="src/js/server.js"></script>-->
+	
+</body>
+</html>
